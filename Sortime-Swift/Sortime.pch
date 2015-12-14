@@ -1,0 +1,71 @@
+//
+//  Sortime.pch
+//  Sortime
+//
+//  Created by Calcifer on 15/11/25.
+//  Copyright © 2015年 com.Carcifer. All rights reserved.
+//
+
+#ifndef Sortime_pch
+#define Sortime_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+//includes
+#import "AFNetworking.h"
+#import "NSString+ChineseCalendar.h"
+#import "CCF_Extension.h"
+#import "Masonry.h"
+#import "BlocksKit.h"
+#import "BlocksKit+UIKit.h"
+#import "GPUImage.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+
+/**
+ *  @brief 输出格式如下的打印信息：(类名:行数   打印的信息), 只有在DEBUG模式下输出，release模式不会输出(Build Settings 中 Preprocessor Macros 的 Debug 后边会有 DEBUG = 1 定义)
+ */
+
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+//#define NSLog(FORMAT, ...) fprintf(stderr,"%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(...)
+#endif
+
+//DDlog
+#import "DDLog.h"
+#if DEBUG
+static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+static const DDLogLevel ddLogLevel = DDLogLevelWarning;
+#endif
+
+
+//size
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define WeakSelf(weakself) __typeof (&*self) weakself = self;
+
+//UIColor
+#define kLightBlueColor [UIColor colorWithRed:0.349 green:0.678 blue:0.922 alpha:1.00]
+
+
+
+
+//pathStr
+#define ccf_bundlePath [[NSBundle mainBundle] bundlePath]
+#define ccf_DocumentsPath NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject
+#define ccf_LibraryPath NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, NO).firstObject
+#define ccf_Caches NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject
+#define ccf_userDefaults [NSUserDefaults standardUserDefaults]
+#define ccf_TmpPath NSTemporaryDirectory()
+
+
+
+
+#endif /* Sortime_pch */

@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A6F34259AC5DC4BA24BCD7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08227EBC953D7469E034F4D4 /* libPods.a */; };
+		E68EA09A1C1D9A0000797674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0991C1D9A0000797674 /* AppDelegate.swift */; };
+		E68EA09C1C1D9A0000797674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68EA09B1C1D9A0000797674 /* ViewController.swift */; };
+		E68EA09F1C1D9A0000797674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68EA09D1C1D9A0000797674 /* Main.storyboard */; };
+		E68EA0A11C1D9A0000797674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68EA0A01C1D9A0000797674 /* Assets.xcassets */; };
+		E68EA0A41C1D9A0000797674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68EA0A21C1D9A0000797674 /* LaunchScreen.storyboard */; };
+		E68EA0AF1C1D9A0000797674 /* Sortime_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0AE1C1D9A0000797674 /* Sortime_SwiftTests.swift */; };
+		E68EA0BA1C1D9A0000797674 /* Sortime_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0B91C1D9A0000797674 /* Sortime_SwiftUITests.swift */; };
+		E68EA1E11C1EBBB600797674 /* AddFriendSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA17B1C1EBBB600797674 /* AddFriendSearchView.m */; };
+		E68EA1E21C1EBBB600797674 /* AddFriendTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA17D1C1EBBB600797674 /* AddFriendTableView.m */; };
+		E68EA1E31C1EBBB600797674 /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA17F1C1EBBB600797674 /* AddFriendViewController.m */; };
+		E68EA1E41C1EBBB600797674 /* AleatNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1811C1EBBB600797674 /* AleatNavigationController.m */; };
+		E68EA1E51C1EBBB600797674 /* AlertTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1831C1EBBB600797674 /* AlertTableView.m */; };
+		E68EA1E61C1EBBB600797674 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1851C1EBBB600797674 /* AlertViewController.m */; };
+		E68EA1E71C1EBBB600797674 /* SegmentButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1871C1EBBB600797674 /* SegmentButtonView.m */; };
+		E68EA1E81C1EBBB600797674 /* TwoDimentionCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1891C1EBBB600797674 /* TwoDimentionCodeViewController.m */; };
+		E68EA1E91C1EBBB600797674 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA18D1C1EBBB600797674 /* NSArray+Extension.m */; };
+		E68EA1EA1C1EBBB600797674 /* NSDate+CalciferExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA18F1C1EBBB600797674 /* NSDate+CalciferExtension.m */; };
+		E68EA1EB1C1EBBB600797674 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1911C1EBBB600797674 /* NSDictionary+Extension.m */; };
+		E68EA1EC1C1EBBB600797674 /* NSString+ChineseCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1931C1EBBB600797674 /* NSString+ChineseCalendar.m */; };
+		E68EA1ED1C1EBBB600797674 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1961C1EBBB600797674 /* UIBarButtonItem+Extension.m */; };
+		E68EA1EE1C1EBBB600797674 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1981C1EBBB600797674 /* UIImage+Extension.m */; };
+		E68EA1EF1C1EBBB600797674 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA19A1C1EBBB600797674 /* UIView+Extension.m */; };
+		E68EA1F01C1EBBB600797674 /* CalendarCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA19D1C1EBBB600797674 /* CalendarCoverView.m */; };
+		E68EA1F11C1EBBB600797674 /* CalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA19F1C1EBBB600797674 /* CalendarDayView.m */; };
+		E68EA1F21C1EBBB600797674 /* CalendarListPageNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1A11C1EBBB600797674 /* CalendarListPageNoticeView.m */; };
+		E68EA1F31C1EBBB600797674 /* CalendarListPageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1A31C1EBBB600797674 /* CalendarListPageTableView.m */; };
+		E68EA1F41C1EBBB600797674 /* CalendarListPageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1A51C1EBBB600797674 /* CalendarListPageTableViewCell.m */; };
+		E68EA1F51C1EBBB600797674 /* CalendarListPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1A71C1EBBB600797674 /* CalendarListPageView.m */; };
+		E68EA1F61C1EBBB600797674 /* CalendarListPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1A91C1EBBB600797674 /* CalendarListPageViewController.m */; };
+		E68EA1F71C1EBBB600797674 /* CalendarListPageWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1AB1C1EBBB600797674 /* CalendarListPageWeatherModel.m */; };
+		E68EA1F81C1EBBB600797674 /* CalendarListPageWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1AD1C1EBBB600797674 /* CalendarListPageWeatherView.m */; };
+		E68EA1F91C1EBBB600797674 /* CalendarListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1AF1C1EBBB600797674 /* CalendarListView.m */; };
+		E68EA1FA1C1EBBB600797674 /* CalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1B11C1EBBB600797674 /* CalendarMonthView.m */; };
+		E68EA1FB1C1EBBB600797674 /* CalendarNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1B31C1EBBB600797674 /* CalendarNavigationController.m */; };
+		E68EA1FC1C1EBBB600797674 /* CalendarSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1B51C1EBBB600797674 /* CalendarSwitchView.m */; };
+		E68EA1FD1C1EBBB600797674 /* CalendarSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1B71C1EBBB600797674 /* CalendarSwitchViewController.m */; };
+		E68EA1FE1C1EBBB600797674 /* CalendarTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1B91C1EBBB600797674 /* CalendarTitleView.m */; };
+		E68EA1FF1C1EBBB600797674 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1BB1C1EBBB600797674 /* CalendarView.m */; };
+		E68EA2001C1EBBB600797674 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1BD1C1EBBB600797674 /* CalendarViewController.m */; };
+		E68EA2011C1EBBB600797674 /* CalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1BF1C1EBBB600797674 /* CalendarWeekView.m */; };
+		E68EA2021C1EBBB600797674 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1C21C1EBBB600797674 /* DataBaseManager.m */; };
+		E68EA2031C1EBBB600797674 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1C51C1EBBB600797674 /* BaseTableViewController.m */; };
+		E68EA2041C1EBBB600797674 /* SaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1C71C1EBBB600797674 /* SaveTool.m */; };
+		E68EA2051C1EBBB600797674 /* SettingArrowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1C91C1EBBB600797674 /* SettingArrowModel.m */; };
+		E68EA2061C1EBBB600797674 /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1CB1C1EBBB600797674 /* SettingCell.m */; };
+		E68EA2071C1EBBB600797674 /* SettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1CD1C1EBBB600797674 /* SettingGroup.m */; };
+		E68EA2081C1EBBB600797674 /* SettingLabelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1CF1C1EBBB600797674 /* SettingLabelModel.m */; };
+		E68EA2091C1EBBB600797674 /* SettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1D11C1EBBB600797674 /* SettingModel.m */; };
+		E68EA20A1C1EBBB600797674 /* SettingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1D31C1EBBB600797674 /* SettingNavigationController.m */; };
+		E68EA20B1C1EBBB600797674 /* SettingSwitchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1D51C1EBBB600797674 /* SettingSwitchModel.m */; };
+		E68EA20C1C1EBBB600797674 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1D71C1EBBB600797674 /* SettingViewController.m */; };
+		E68EA20D1C1EBBB600797674 /* SmartAddNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1DA1C1EBBB600797674 /* SmartAddNavigationController.m */; };
+		E68EA20E1C1EBBB600797674 /* SmartAddTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1DC1C1EBBB600797674 /* SmartAddTitleView.m */; };
+		E68EA20F1C1EBBB600797674 /* SmartAddTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1DE1C1EBBB600797674 /* SmartAddTypeView.m */; };
+		E68EA2101C1EBBB600797674 /* SmartAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA1E01C1EBBB600797674 /* SmartAddViewController.m */; };
+		E68EA2181C1EBE2000797674 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA2131C1EBE2000797674 /* BaseViewController.m */; };
+		E68EA2191C1EBE2000797674 /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA2151C1EBE2000797674 /* MainTabBar.m */; };
+		E68EA21A1C1EBE2000797674 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA2171C1EBE2000797674 /* MainTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E68EA0AB1C1D9A0000797674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E68EA08E1C1D9A0000797674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E68EA0951C1D9A0000797674;
+			remoteInfo = "Sortime-Swift";
+		};
+		E68EA0B61C1D9A0000797674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E68EA08E1C1D9A0000797674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E68EA0951C1D9A0000797674;
+			remoteInfo = "Sortime-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08227EBC953D7469E034F4D4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA862A142BB44616519079D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BCD223220A64F9B6A36D65A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E68EA0961C1D9A0000797674 /* Sortime-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sortime-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68EA0991C1D9A0000797674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E68EA09B1C1D9A0000797674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E68EA09E1C1D9A0000797674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E68EA0A01C1D9A0000797674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E68EA0A31C1D9A0000797674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E68EA0A51C1D9A0000797674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68EA0AA1C1D9A0000797674 /* Sortime-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sortime-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68EA0AE1C1D9A0000797674 /* Sortime_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sortime_SwiftTests.swift; sourceTree = "<group>"; };
+		E68EA0B01C1D9A0000797674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68EA0B51C1D9A0000797674 /* Sortime-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sortime-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68EA0B91C1D9A0000797674 /* Sortime_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sortime_SwiftUITests.swift; sourceTree = "<group>"; };
+		E68EA0BB1C1D9A0000797674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68EA1781C1EBB3100797674 /* Sortime-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Sortime-Swift-Bridging-Header.h"; path = "../Sortime-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		E68EA17A1C1EBBB600797674 /* AddFriendSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendSearchView.h; sourceTree = "<group>"; };
+		E68EA17B1C1EBBB600797674 /* AddFriendSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendSearchView.m; sourceTree = "<group>"; };
+		E68EA17C1C1EBBB600797674 /* AddFriendTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendTableView.h; sourceTree = "<group>"; };
+		E68EA17D1C1EBBB600797674 /* AddFriendTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendTableView.m; sourceTree = "<group>"; };
+		E68EA17E1C1EBBB600797674 /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		E68EA17F1C1EBBB600797674 /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		E68EA1801C1EBBB600797674 /* AleatNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AleatNavigationController.h; sourceTree = "<group>"; };
+		E68EA1811C1EBBB600797674 /* AleatNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AleatNavigationController.m; sourceTree = "<group>"; };
+		E68EA1821C1EBBB600797674 /* AlertTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTableView.h; sourceTree = "<group>"; };
+		E68EA1831C1EBBB600797674 /* AlertTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTableView.m; sourceTree = "<group>"; };
+		E68EA1841C1EBBB600797674 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		E68EA1851C1EBBB600797674 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		E68EA1861C1EBBB600797674 /* SegmentButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentButtonView.h; sourceTree = "<group>"; };
+		E68EA1871C1EBBB600797674 /* SegmentButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentButtonView.m; sourceTree = "<group>"; };
+		E68EA1881C1EBBB600797674 /* TwoDimentionCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDimentionCodeViewController.h; sourceTree = "<group>"; };
+		E68EA1891C1EBBB600797674 /* TwoDimentionCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDimentionCodeViewController.m; sourceTree = "<group>"; };
+		E68EA18B1C1EBBB600797674 /* CCF_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCF_Extension.h; sourceTree = "<group>"; };
+		E68EA18C1C1EBBB600797674 /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		E68EA18D1C1EBBB600797674 /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		E68EA18E1C1EBBB600797674 /* NSDate+CalciferExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CalciferExtension.h"; sourceTree = "<group>"; };
+		E68EA18F1C1EBBB600797674 /* NSDate+CalciferExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CalciferExtension.m"; sourceTree = "<group>"; };
+		E68EA1901C1EBBB600797674 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		E68EA1911C1EBBB600797674 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		E68EA1921C1EBBB600797674 /* NSString+ChineseCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ChineseCalendar.h"; sourceTree = "<group>"; };
+		E68EA1931C1EBBB600797674 /* NSString+ChineseCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ChineseCalendar.m"; sourceTree = "<group>"; };
+		E68EA1941C1EBBB600797674 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		E68EA1951C1EBBB600797674 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		E68EA1961C1EBBB600797674 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		E68EA1971C1EBBB600797674 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		E68EA1981C1EBBB600797674 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		E68EA1991C1EBBB600797674 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E68EA19A1C1EBBB600797674 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E68EA19C1C1EBBB600797674 /* CalendarCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCoverView.h; sourceTree = "<group>"; };
+		E68EA19D1C1EBBB600797674 /* CalendarCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCoverView.m; sourceTree = "<group>"; };
+		E68EA19E1C1EBBB600797674 /* CalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayView.h; sourceTree = "<group>"; };
+		E68EA19F1C1EBBB600797674 /* CalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayView.m; sourceTree = "<group>"; };
+		E68EA1A01C1EBBB600797674 /* CalendarListPageNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarListPageNoticeView.h; sourceTree = "<group>"; };
+		E68EA1A11C1EBBB600797674 /* CalendarListPageNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarListPageNoticeView.m; sourceTree = "<group>"; };
+		E68EA1A21C1EBBB600797674 /* CalendarListPageTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarListPageTableView.h; sourceTree = "<group>"; };
+		E68EA1A31C1EBBB600797674 /* CalendarListPageTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarListPageTableView.m; sourceTree = "<group>"; };
+		E68EA1A41C1EBBB600797674 /* CalendarListPageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarListPageTableViewCell.h; sourceTree = "<group>"; };
+		E68EA1A51C1EBBB600797674 /* CalendarListPageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarListPageTableViewCell.m; sourceTree = "<group>"; };
+		E68EA1A61C1EBBB600797674 /* CalendarListPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarListPageView.h; sourceTree = "<group>"; };
+		E68EA1A71C1EBBB600797674 /* CalendarListPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarListPageView.m; sourceTree = "<group>"; };
+		E68EA1A81C1EBBB600797674 /* CalendarListPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarListPageViewController.h; sourceTree = "<group>"; };
+		E68EA1A91C1EBBB600797674 /* CalendarListPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarListPageViewController.m; sourceTree = "<group>"; };
+		E68EA1AA1C1EBBB600797674 /* CalendarListPageWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarListPageWeatherModel.h; sourceTree = "<group>"; };
+		E68EA1AB1C1EBBB600797674 /* CalendarListPageWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarListPageWeatherModel.m; sourceTree = "<group>"; };
+		E68EA1AC1C1EBBB600797674 /* CalendarListPageWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarListPageWeatherView.h; sourceTree = "<group>"; };
+		E68EA1AD1C1EBBB600797674 /* CalendarListPageWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarListPageWeatherView.m; sourceTree = "<group>"; };
+		E68EA1AE1C1EBBB600797674 /* CalendarListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarListView.h; sourceTree = "<group>"; };
+		E68EA1AF1C1EBBB600797674 /* CalendarListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarListView.m; sourceTree = "<group>"; };
+		E68EA1B01C1EBBB600797674 /* CalendarMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthView.h; sourceTree = "<group>"; };
+		E68EA1B11C1EBBB600797674 /* CalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthView.m; sourceTree = "<group>"; };
+		E68EA1B21C1EBBB600797674 /* CalendarNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarNavigationController.h; sourceTree = "<group>"; };
+		E68EA1B31C1EBBB600797674 /* CalendarNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarNavigationController.m; sourceTree = "<group>"; };
+		E68EA1B41C1EBBB600797674 /* CalendarSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarSwitchView.h; sourceTree = "<group>"; };
+		E68EA1B51C1EBBB600797674 /* CalendarSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarSwitchView.m; sourceTree = "<group>"; };
+		E68EA1B61C1EBBB600797674 /* CalendarSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarSwitchViewController.h; sourceTree = "<group>"; };
+		E68EA1B71C1EBBB600797674 /* CalendarSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarSwitchViewController.m; sourceTree = "<group>"; };
+		E68EA1B81C1EBBB600797674 /* CalendarTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarTitleView.h; sourceTree = "<group>"; };
+		E68EA1B91C1EBBB600797674 /* CalendarTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarTitleView.m; sourceTree = "<group>"; };
+		E68EA1BA1C1EBBB600797674 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		E68EA1BB1C1EBBB600797674 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		E68EA1BC1C1EBBB600797674 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		E68EA1BD1C1EBBB600797674 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		E68EA1BE1C1EBBB600797674 /* CalendarWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarWeekView.h; sourceTree = "<group>"; };
+		E68EA1BF1C1EBBB600797674 /* CalendarWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarWeekView.m; sourceTree = "<group>"; };
+		E68EA1C11C1EBBB600797674 /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		E68EA1C21C1EBBB600797674 /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		E68EA1C41C1EBBB600797674 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		E68EA1C51C1EBBB600797674 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		E68EA1C61C1EBBB600797674 /* SaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveTool.h; sourceTree = "<group>"; };
+		E68EA1C71C1EBBB600797674 /* SaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveTool.m; sourceTree = "<group>"; };
+		E68EA1C81C1EBBB600797674 /* SettingArrowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingArrowModel.h; sourceTree = "<group>"; };
+		E68EA1C91C1EBBB600797674 /* SettingArrowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingArrowModel.m; sourceTree = "<group>"; };
+		E68EA1CA1C1EBBB600797674 /* SettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCell.h; sourceTree = "<group>"; };
+		E68EA1CB1C1EBBB600797674 /* SettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingCell.m; sourceTree = "<group>"; };
+		E68EA1CC1C1EBBB600797674 /* SettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingGroup.h; sourceTree = "<group>"; };
+		E68EA1CD1C1EBBB600797674 /* SettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingGroup.m; sourceTree = "<group>"; };
+		E68EA1CE1C1EBBB600797674 /* SettingLabelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingLabelModel.h; sourceTree = "<group>"; };
+		E68EA1CF1C1EBBB600797674 /* SettingLabelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingLabelModel.m; sourceTree = "<group>"; };
+		E68EA1D01C1EBBB600797674 /* SettingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingModel.h; sourceTree = "<group>"; };
+		E68EA1D11C1EBBB600797674 /* SettingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingModel.m; sourceTree = "<group>"; };
+		E68EA1D21C1EBBB600797674 /* SettingNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingNavigationController.h; sourceTree = "<group>"; };
+		E68EA1D31C1EBBB600797674 /* SettingNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingNavigationController.m; sourceTree = "<group>"; };
+		E68EA1D41C1EBBB600797674 /* SettingSwitchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingSwitchModel.h; sourceTree = "<group>"; };
+		E68EA1D51C1EBBB600797674 /* SettingSwitchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingSwitchModel.m; sourceTree = "<group>"; };
+		E68EA1D61C1EBBB600797674 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		E68EA1D71C1EBBB600797674 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		E68EA1D91C1EBBB600797674 /* SmartAddNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAddNavigationController.h; sourceTree = "<group>"; };
+		E68EA1DA1C1EBBB600797674 /* SmartAddNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartAddNavigationController.m; sourceTree = "<group>"; };
+		E68EA1DB1C1EBBB600797674 /* SmartAddTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAddTitleView.h; sourceTree = "<group>"; };
+		E68EA1DC1C1EBBB600797674 /* SmartAddTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartAddTitleView.m; sourceTree = "<group>"; };
+		E68EA1DD1C1EBBB600797674 /* SmartAddTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAddTypeView.h; sourceTree = "<group>"; };
+		E68EA1DE1C1EBBB600797674 /* SmartAddTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartAddTypeView.m; sourceTree = "<group>"; };
+		E68EA1DF1C1EBBB600797674 /* SmartAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAddViewController.h; sourceTree = "<group>"; };
+		E68EA1E01C1EBBB600797674 /* SmartAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartAddViewController.m; sourceTree = "<group>"; };
+		E68EA2121C1EBE2000797674 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E68EA2131C1EBE2000797674 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E68EA2141C1EBE2000797674 /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
+		E68EA2151C1EBE2000797674 /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
+		E68EA2161C1EBE2000797674 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		E68EA2171C1EBE2000797674 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		E68EA21B1C1EBE4100797674 /* Sortime-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Sortime-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E68EA0931C1D9A0000797674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A6F34259AC5DC4BA24BCD7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68EA0A71C1D9A0000797674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68EA0B21C1D9A0000797674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		753CFE185B1B4C23334C5A43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08227EBC953D7469E034F4D4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E34831496DBCB2E87292ED3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DA862A142BB44616519079D /* Pods.debug.xcconfig */,
+				BCD223220A64F9B6A36D65A6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E68EA08D1C1D9A0000797674 = {
+			isa = PBXGroup;
+			children = (
+				E68EA0981C1D9A0000797674 /* Sortime-Swift */,
+				E68EA0AD1C1D9A0000797674 /* Sortime-SwiftTests */,
+				E68EA0B81C1D9A0000797674 /* Sortime-SwiftUITests */,
+				E68EA0971C1D9A0000797674 /* Products */,
+				E34831496DBCB2E87292ED3D /* Pods */,
+				753CFE185B1B4C23334C5A43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E68EA0971C1D9A0000797674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA0961C1D9A0000797674 /* Sortime-Swift.app */,
+				E68EA0AA1C1D9A0000797674 /* Sortime-SwiftTests.xctest */,
+				E68EA0B51C1D9A0000797674 /* Sortime-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E68EA0981C1D9A0000797674 /* Sortime-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA1791C1EBBB600797674 /* Alert */,
+				E68EA18A1C1EBBB600797674 /* Calcifer's Category */,
+				E68EA19B1C1EBBB600797674 /* Calendar */,
+				E68EA1C01C1EBBB600797674 /* DBTool */,
+				E68EA1C31C1EBBB600797674 /* Setting */,
+				E68EA1D81C1EBBB600797674 /* SmartAdd */,
+				E68EA2111C1EBE2000797674 /* Others */,
+				E68EA0991C1D9A0000797674 /* AppDelegate.swift */,
+				E68EA09B1C1D9A0000797674 /* ViewController.swift */,
+				E68EA21B1C1EBE4100797674 /* Sortime-Swift-Bridging-Header.h */,
+				E68EA0A01C1D9A0000797674 /* Assets.xcassets */,
+				E68EA09D1C1D9A0000797674 /* Main.storyboard */,
+				E68EA0A21C1D9A0000797674 /* LaunchScreen.storyboard */,
+				E68EA0A51C1D9A0000797674 /* Info.plist */,
+			);
+			path = "Sortime-Swift";
+			sourceTree = "<group>";
+		};
+		E68EA0AD1C1D9A0000797674 /* Sortime-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA0AE1C1D9A0000797674 /* Sortime_SwiftTests.swift */,
+				E68EA0B01C1D9A0000797674 /* Info.plist */,
+			);
+			path = "Sortime-SwiftTests";
+			sourceTree = "<group>";
+		};
+		E68EA0B81C1D9A0000797674 /* Sortime-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA0B91C1D9A0000797674 /* Sortime_SwiftUITests.swift */,
+				E68EA0BB1C1D9A0000797674 /* Info.plist */,
+			);
+			path = "Sortime-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		E68EA1791C1EBBB600797674 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA17A1C1EBBB600797674 /* AddFriendSearchView.h */,
+				E68EA17B1C1EBBB600797674 /* AddFriendSearchView.m */,
+				E68EA17C1C1EBBB600797674 /* AddFriendTableView.h */,
+				E68EA17D1C1EBBB600797674 /* AddFriendTableView.m */,
+				E68EA17E1C1EBBB600797674 /* AddFriendViewController.h */,
+				E68EA17F1C1EBBB600797674 /* AddFriendViewController.m */,
+				E68EA1801C1EBBB600797674 /* AleatNavigationController.h */,
+				E68EA1811C1EBBB600797674 /* AleatNavigationController.m */,
+				E68EA1821C1EBBB600797674 /* AlertTableView.h */,
+				E68EA1831C1EBBB600797674 /* AlertTableView.m */,
+				E68EA1841C1EBBB600797674 /* AlertViewController.h */,
+				E68EA1851C1EBBB600797674 /* AlertViewController.m */,
+				E68EA1861C1EBBB600797674 /* SegmentButtonView.h */,
+				E68EA1871C1EBBB600797674 /* SegmentButtonView.m */,
+				E68EA1881C1EBBB600797674 /* TwoDimentionCodeViewController.h */,
+				E68EA1891C1EBBB600797674 /* TwoDimentionCodeViewController.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		E68EA18A1C1EBBB600797674 /* Calcifer's Category */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA18B1C1EBBB600797674 /* CCF_Extension.h */,
+				E68EA18C1C1EBBB600797674 /* NSArray+Extension.h */,
+				E68EA18D1C1EBBB600797674 /* NSArray+Extension.m */,
+				E68EA18E1C1EBBB600797674 /* NSDate+CalciferExtension.h */,
+				E68EA18F1C1EBBB600797674 /* NSDate+CalciferExtension.m */,
+				E68EA1901C1EBBB600797674 /* NSDictionary+Extension.h */,
+				E68EA1911C1EBBB600797674 /* NSDictionary+Extension.m */,
+				E68EA1921C1EBBB600797674 /* NSString+ChineseCalendar.h */,
+				E68EA1931C1EBBB600797674 /* NSString+ChineseCalendar.m */,
+				E68EA1941C1EBBB600797674 /* Singleton.h */,
+				E68EA1951C1EBBB600797674 /* UIBarButtonItem+Extension.h */,
+				E68EA1961C1EBBB600797674 /* UIBarButtonItem+Extension.m */,
+				E68EA1971C1EBBB600797674 /* UIImage+Extension.h */,
+				E68EA1981C1EBBB600797674 /* UIImage+Extension.m */,
+				E68EA1991C1EBBB600797674 /* UIView+Extension.h */,
+				E68EA19A1C1EBBB600797674 /* UIView+Extension.m */,
+			);
+			path = "Calcifer's Category";
+			sourceTree = "<group>";
+		};
+		E68EA19B1C1EBBB600797674 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA19C1C1EBBB600797674 /* CalendarCoverView.h */,
+				E68EA19D1C1EBBB600797674 /* CalendarCoverView.m */,
+				E68EA19E1C1EBBB600797674 /* CalendarDayView.h */,
+				E68EA19F1C1EBBB600797674 /* CalendarDayView.m */,
+				E68EA1A01C1EBBB600797674 /* CalendarListPageNoticeView.h */,
+				E68EA1A11C1EBBB600797674 /* CalendarListPageNoticeView.m */,
+				E68EA1A21C1EBBB600797674 /* CalendarListPageTableView.h */,
+				E68EA1A31C1EBBB600797674 /* CalendarListPageTableView.m */,
+				E68EA1A41C1EBBB600797674 /* CalendarListPageTableViewCell.h */,
+				E68EA1A51C1EBBB600797674 /* CalendarListPageTableViewCell.m */,
+				E68EA1A61C1EBBB600797674 /* CalendarListPageView.h */,
+				E68EA1A71C1EBBB600797674 /* CalendarListPageView.m */,
+				E68EA1A81C1EBBB600797674 /* CalendarListPageViewController.h */,
+				E68EA1A91C1EBBB600797674 /* CalendarListPageViewController.m */,
+				E68EA1AA1C1EBBB600797674 /* CalendarListPageWeatherModel.h */,
+				E68EA1AB1C1EBBB600797674 /* CalendarListPageWeatherModel.m */,
+				E68EA1AC1C1EBBB600797674 /* CalendarListPageWeatherView.h */,
+				E68EA1AD1C1EBBB600797674 /* CalendarListPageWeatherView.m */,
+				E68EA1AE1C1EBBB600797674 /* CalendarListView.h */,
+				E68EA1AF1C1EBBB600797674 /* CalendarListView.m */,
+				E68EA1B01C1EBBB600797674 /* CalendarMonthView.h */,
+				E68EA1B11C1EBBB600797674 /* CalendarMonthView.m */,
+				E68EA1B21C1EBBB600797674 /* CalendarNavigationController.h */,
+				E68EA1B31C1EBBB600797674 /* CalendarNavigationController.m */,
+				E68EA1B41C1EBBB600797674 /* CalendarSwitchView.h */,
+				E68EA1B51C1EBBB600797674 /* CalendarSwitchView.m */,
+				E68EA1B61C1EBBB600797674 /* CalendarSwitchViewController.h */,
+				E68EA1B71C1EBBB600797674 /* CalendarSwitchViewController.m */,
+				E68EA1B81C1EBBB600797674 /* CalendarTitleView.h */,
+				E68EA1B91C1EBBB600797674 /* CalendarTitleView.m */,
+				E68EA1BA1C1EBBB600797674 /* CalendarView.h */,
+				E68EA1BB1C1EBBB600797674 /* CalendarView.m */,
+				E68EA1BC1C1EBBB600797674 /* CalendarViewController.h */,
+				E68EA1BD1C1EBBB600797674 /* CalendarViewController.m */,
+				E68EA1BE1C1EBBB600797674 /* CalendarWeekView.h */,
+				E68EA1BF1C1EBBB600797674 /* CalendarWeekView.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		E68EA1C01C1EBBB600797674 /* DBTool */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA1C11C1EBBB600797674 /* DataBaseManager.h */,
+				E68EA1C21C1EBBB600797674 /* DataBaseManager.m */,
+			);
+			path = DBTool;
+			sourceTree = "<group>";
+		};
+		E68EA1C31C1EBBB600797674 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA1C41C1EBBB600797674 /* BaseTableViewController.h */,
+				E68EA1C51C1EBBB600797674 /* BaseTableViewController.m */,
+				E68EA1C61C1EBBB600797674 /* SaveTool.h */,
+				E68EA1C71C1EBBB600797674 /* SaveTool.m */,
+				E68EA1C81C1EBBB600797674 /* SettingArrowModel.h */,
+				E68EA1C91C1EBBB600797674 /* SettingArrowModel.m */,
+				E68EA1CA1C1EBBB600797674 /* SettingCell.h */,
+				E68EA1CB1C1EBBB600797674 /* SettingCell.m */,
+				E68EA1CC1C1EBBB600797674 /* SettingGroup.h */,
+				E68EA1CD1C1EBBB600797674 /* SettingGroup.m */,
+				E68EA1CE1C1EBBB600797674 /* SettingLabelModel.h */,
+				E68EA1CF1C1EBBB600797674 /* SettingLabelModel.m */,
+				E68EA1D01C1EBBB600797674 /* SettingModel.h */,
+				E68EA1D11C1EBBB600797674 /* SettingModel.m */,
+				E68EA1D21C1EBBB600797674 /* SettingNavigationController.h */,
+				E68EA1D31C1EBBB600797674 /* SettingNavigationController.m */,
+				E68EA1D41C1EBBB600797674 /* SettingSwitchModel.h */,
+				E68EA1D51C1EBBB600797674 /* SettingSwitchModel.m */,
+				E68EA1D61C1EBBB600797674 /* SettingViewController.h */,
+				E68EA1D71C1EBBB600797674 /* SettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		E68EA1D81C1EBBB600797674 /* SmartAdd */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA1781C1EBB3100797674 /* Sortime-Swift-Bridging-Header.h */,
+				E68EA1D91C1EBBB600797674 /* SmartAddNavigationController.h */,
+				E68EA1DA1C1EBBB600797674 /* SmartAddNavigationController.m */,
+				E68EA1DB1C1EBBB600797674 /* SmartAddTitleView.h */,
+				E68EA1DC1C1EBBB600797674 /* SmartAddTitleView.m */,
+				E68EA1DD1C1EBBB600797674 /* SmartAddTypeView.h */,
+				E68EA1DE1C1EBBB600797674 /* SmartAddTypeView.m */,
+				E68EA1DF1C1EBBB600797674 /* SmartAddViewController.h */,
+				E68EA1E01C1EBBB600797674 /* SmartAddViewController.m */,
+			);
+			path = SmartAdd;
+			sourceTree = "<group>";
+		};
+		E68EA2111C1EBE2000797674 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA2121C1EBE2000797674 /* BaseViewController.h */,
+				E68EA2131C1EBE2000797674 /* BaseViewController.m */,
+				E68EA2141C1EBE2000797674 /* MainTabBar.h */,
+				E68EA2151C1EBE2000797674 /* MainTabBar.m */,
+				E68EA2161C1EBE2000797674 /* MainTabBarController.h */,
+				E68EA2171C1EBE2000797674 /* MainTabBarController.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E68EA0951C1D9A0000797674 /* Sortime-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E68EA0BE1C1D9A0000797674 /* Build configuration list for PBXNativeTarget "Sortime-Swift" */;
+			buildPhases = (
+				C8750BDD53B07D2314AFE460 /* Check Pods Manifest.lock */,
+				E68EA0921C1D9A0000797674 /* Sources */,
+				E68EA0931C1D9A0000797674 /* Frameworks */,
+				E68EA0941C1D9A0000797674 /* Resources */,
+				78CA4D024BFCDB3CF181A73F /* Embed Pods Frameworks */,
+				27B033B0305796F85C5657E6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sortime-Swift";
+			productName = "Sortime-Swift";
+			productReference = E68EA0961C1D9A0000797674 /* Sortime-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E68EA0A91C1D9A0000797674 /* Sortime-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E68EA0C11C1D9A0000797674 /* Build configuration list for PBXNativeTarget "Sortime-SwiftTests" */;
+			buildPhases = (
+				E68EA0A61C1D9A0000797674 /* Sources */,
+				E68EA0A71C1D9A0000797674 /* Frameworks */,
+				E68EA0A81C1D9A0000797674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E68EA0AC1C1D9A0000797674 /* PBXTargetDependency */,
+			);
+			name = "Sortime-SwiftTests";
+			productName = "Sortime-SwiftTests";
+			productReference = E68EA0AA1C1D9A0000797674 /* Sortime-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E68EA0B41C1D9A0000797674 /* Sortime-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E68EA0C41C1D9A0000797674 /* Build configuration list for PBXNativeTarget "Sortime-SwiftUITests" */;
+			buildPhases = (
+				E68EA0B11C1D9A0000797674 /* Sources */,
+				E68EA0B21C1D9A0000797674 /* Frameworks */,
+				E68EA0B31C1D9A0000797674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E68EA0B71C1D9A0000797674 /* PBXTargetDependency */,
+			);
+			name = "Sortime-SwiftUITests";
+			productName = "Sortime-SwiftUITests";
+			productReference = E68EA0B51C1D9A0000797674 /* Sortime-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E68EA08E1C1D9A0000797674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.Carcifer;
+				TargetAttributes = {
+					E68EA0951C1D9A0000797674 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5CR43J9599;
+					};
+					E68EA0A91C1D9A0000797674 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5CR43J9599;
+						TestTargetID = E68EA0951C1D9A0000797674;
+					};
+					E68EA0B41C1D9A0000797674 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5CR43J9599;
+						TestTargetID = E68EA0951C1D9A0000797674;
+					};
+				};
+			};
+			buildConfigurationList = E68EA0911C1D9A0000797674 /* Build configuration list for PBXProject "Sortime-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E68EA08D1C1D9A0000797674;
+			productRefGroup = E68EA0971C1D9A0000797674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E68EA0951C1D9A0000797674 /* Sortime-Swift */,
+				E68EA0A91C1D9A0000797674 /* Sortime-SwiftTests */,
+				E68EA0B41C1D9A0000797674 /* Sortime-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E68EA0941C1D9A0000797674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68EA0A41C1D9A0000797674 /* LaunchScreen.storyboard in Resources */,
+				E68EA0A11C1D9A0000797674 /* Assets.xcassets in Resources */,
+				E68EA09F1C1D9A0000797674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68EA0A81C1D9A0000797674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68EA0B31C1D9A0000797674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27B033B0305796F85C5657E6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78CA4D024BFCDB3CF181A73F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8750BDD53B07D2314AFE460 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E68EA0921C1D9A0000797674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68EA2101C1EBBB600797674 /* SmartAddViewController.m in Sources */,
+				E68EA1E11C1EBBB600797674 /* AddFriendSearchView.m in Sources */,
+				E68EA1EC1C1EBBB600797674 /* NSString+ChineseCalendar.m in Sources */,
+				E68EA2041C1EBBB600797674 /* SaveTool.m in Sources */,
+				E68EA2071C1EBBB600797674 /* SettingGroup.m in Sources */,
+				E68EA2051C1EBBB600797674 /* SettingArrowModel.m in Sources */,
+				E68EA20B1C1EBBB600797674 /* SettingSwitchModel.m in Sources */,
+				E68EA2181C1EBE2000797674 /* BaseViewController.m in Sources */,
+				E68EA1F61C1EBBB600797674 /* CalendarListPageViewController.m in Sources */,
+				E68EA20F1C1EBBB600797674 /* SmartAddTypeView.m in Sources */,
+				E68EA2091C1EBBB600797674 /* SettingModel.m in Sources */,
+				E68EA1FF1C1EBBB600797674 /* CalendarView.m in Sources */,
+				E68EA1EA1C1EBBB600797674 /* NSDate+CalciferExtension.m in Sources */,
+				E68EA09C1C1D9A0000797674 /* ViewController.swift in Sources */,
+				E68EA20A1C1EBBB600797674 /* SettingNavigationController.m in Sources */,
+				E68EA1FE1C1EBBB600797674 /* CalendarTitleView.m in Sources */,
+				E68EA1EB1C1EBBB600797674 /* NSDictionary+Extension.m in Sources */,
+				E68EA2021C1EBBB600797674 /* DataBaseManager.m in Sources */,
+				E68EA1F31C1EBBB600797674 /* CalendarListPageTableView.m in Sources */,
+				E68EA1F41C1EBBB600797674 /* CalendarListPageTableViewCell.m in Sources */,
+				E68EA1EF1C1EBBB600797674 /* UIView+Extension.m in Sources */,
+				E68EA09A1C1D9A0000797674 /* AppDelegate.swift in Sources */,
+				E68EA1F81C1EBBB600797674 /* CalendarListPageWeatherView.m in Sources */,
+				E68EA1E41C1EBBB600797674 /* AleatNavigationController.m in Sources */,
+				E68EA1EE1C1EBBB600797674 /* UIImage+Extension.m in Sources */,
+				E68EA1FA1C1EBBB600797674 /* CalendarMonthView.m in Sources */,
+				E68EA1E51C1EBBB600797674 /* AlertTableView.m in Sources */,
+				E68EA1FD1C1EBBB600797674 /* CalendarSwitchViewController.m in Sources */,
+				E68EA1E71C1EBBB600797674 /* SegmentButtonView.m in Sources */,
+				E68EA1F91C1EBBB600797674 /* CalendarListView.m in Sources */,
+				E68EA20E1C1EBBB600797674 /* SmartAddTitleView.m in Sources */,
+				E68EA1F71C1EBBB600797674 /* CalendarListPageWeatherModel.m in Sources */,
+				E68EA1FC1C1EBBB600797674 /* CalendarSwitchView.m in Sources */,
+				E68EA2001C1EBBB600797674 /* CalendarViewController.m in Sources */,
+				E68EA2031C1EBBB600797674 /* BaseTableViewController.m in Sources */,
+				E68EA1ED1C1EBBB600797674 /* UIBarButtonItem+Extension.m in Sources */,
+				E68EA1E21C1EBBB600797674 /* AddFriendTableView.m in Sources */,
+				E68EA20C1C1EBBB600797674 /* SettingViewController.m in Sources */,
+				E68EA1E31C1EBBB600797674 /* AddFriendViewController.m in Sources */,
+				E68EA2081C1EBBB600797674 /* SettingLabelModel.m in Sources */,
+				E68EA1E81C1EBBB600797674 /* TwoDimentionCodeViewController.m in Sources */,
+				E68EA1F21C1EBBB600797674 /* CalendarListPageNoticeView.m in Sources */,
+				E68EA1F51C1EBBB600797674 /* CalendarListPageView.m in Sources */,
+				E68EA1E91C1EBBB600797674 /* NSArray+Extension.m in Sources */,
+				E68EA1F01C1EBBB600797674 /* CalendarCoverView.m in Sources */,
+				E68EA1F11C1EBBB600797674 /* CalendarDayView.m in Sources */,
+				E68EA1E61C1EBBB600797674 /* AlertViewController.m in Sources */,
+				E68EA21A1C1EBE2000797674 /* MainTabBarController.m in Sources */,
+				E68EA2011C1EBBB600797674 /* CalendarWeekView.m in Sources */,
+				E68EA2191C1EBE2000797674 /* MainTabBar.m in Sources */,
+				E68EA2061C1EBBB600797674 /* SettingCell.m in Sources */,
+				E68EA20D1C1EBBB600797674 /* SmartAddNavigationController.m in Sources */,
+				E68EA1FB1C1EBBB600797674 /* CalendarNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68EA0A61C1D9A0000797674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68EA0AF1C1D9A0000797674 /* Sortime_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68EA0B11C1D9A0000797674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68EA0BA1C1D9A0000797674 /* Sortime_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E68EA0AC1C1D9A0000797674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E68EA0951C1D9A0000797674 /* Sortime-Swift */;
+			targetProxy = E68EA0AB1C1D9A0000797674 /* PBXContainerItemProxy */;
+		};
+		E68EA0B71C1D9A0000797674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E68EA0951C1D9A0000797674 /* Sortime-Swift */;
+			targetProxy = E68EA0B61C1D9A0000797674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E68EA09D1C1D9A0000797674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E68EA09E1C1D9A0000797674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E68EA0A21C1D9A0000797674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E68EA0A31C1D9A0000797674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E68EA0BC1C1D9A0000797674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E68EA0BD1C1D9A0000797674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E68EA0BF1C1D9A0000797674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DA862A142BB44616519079D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sortime-Swift/Sortime.pch";
+				INFOPLIST_FILE = "Sortime-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Carcifer.Sortime-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sortime-Swift/Sortime-Swift-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		E68EA0C01C1D9A0000797674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD223220A64F9B6A36D65A6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sortime-Swift/Sortime.pch";
+				INFOPLIST_FILE = "Sortime-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Carcifer.Sortime-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sortime-Swift/Sortime-Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		E68EA0C21C1D9A0000797674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sortime-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Carcifer.Sortime-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sortime-Swift.app/Sortime-Swift";
+			};
+			name = Debug;
+		};
+		E68EA0C31C1D9A0000797674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sortime-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Carcifer.Sortime-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sortime-Swift.app/Sortime-Swift";
+			};
+			name = Release;
+		};
+		E68EA0C51C1D9A0000797674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sortime-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Carcifer.Sortime-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sortime-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E68EA0C61C1D9A0000797674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sortime-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Carcifer.Sortime-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sortime-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E68EA0911C1D9A0000797674 /* Build configuration list for PBXProject "Sortime-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68EA0BC1C1D9A0000797674 /* Debug */,
+				E68EA0BD1C1D9A0000797674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E68EA0BE1C1D9A0000797674 /* Build configuration list for PBXNativeTarget "Sortime-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68EA0BF1C1D9A0000797674 /* Debug */,
+				E68EA0C01C1D9A0000797674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E68EA0C11C1D9A0000797674 /* Build configuration list for PBXNativeTarget "Sortime-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68EA0C21C1D9A0000797674 /* Debug */,
+				E68EA0C31C1D9A0000797674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E68EA0C41C1D9A0000797674 /* Build configuration list for PBXNativeTarget "Sortime-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68EA0C51C1D9A0000797674 /* Debug */,
+				E68EA0C61C1D9A0000797674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E68EA08E1C1D9A0000797674 /* Project object */;
+}
